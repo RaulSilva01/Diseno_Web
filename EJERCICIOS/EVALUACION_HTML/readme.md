@@ -6,16 +6,24 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 Preguntas:
 
 1. ¿Qué es el hipertexto? (valor 1.0)
+   R: Es de un mismo texto son ligas que se mueven en diferentes direcciones sin salir de el  contiene enlaces enlaces a otros textos. 
 
-2. ¿Qué es la hipermedia? (valor 1.0)
+3. ¿Qué es la hipermedia? (valor 1.0)
+   R: Que utiliza varios elementos de medios como video, imagenes, graficos como medios de transmision.
 
-3. ¿Qué características tiene un lenguaje de etiquetas? (valor 1.0)
+5. ¿Qué características tiene un lenguaje de etiquetas? (valor 1.0)
+   R: Es un conjunto de hipertexto y hipermedia  enlazados entre si y accesibles a internet
 
-4. ¿Cuáles son las ventajas que introduce HTML5? (valor 1.0)
+7. ¿Cuáles son las ventajas que introduce HTML5? (valor 1.0)
+   R: Su caracteristica es la cemantica la facilidad de multimedia, las nuevas funciones para formulario y las características
+   que se definen para poder integrarse con tecnologías que permitirán abrir una nueva etapa en Internet.
 
-5. ¿Cuál es la función del motor de renderizado de un navegador web? (valor 1.0)
+9. ¿Cuál es la función del motor de renderizado de un navegador web? (valor 1.0)
+    R: Es el que muestra el contenido del resultado entre HTML y CSS. 
 
-6. Menciona al menos 2 tecnologías de software para el desarrollo de páginas web y explícalas brevemente (valor 1.0)
+11. Menciona al menos 2 tecnologías de software para el desarrollo de páginas web y explícalas brevemente (valor 1.0)
+    R: Visual Studio Code:  Ayuda a escribir y autocompletar sintaxis de codigo para HTML y todos los lenguajes.
+      notepad++ : Es un edotor de texto que ayuda a escribir texto codigo HTML.
 
 ## 2. HERRAMIENTAS PARA LA CREACIÓN DE PÁGINAS WEB
 
@@ -25,21 +33,30 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 Preguntas:
 
 1. Describe al menos 5 características básicas de un editor de texto. (valor 1.0)
+   R:      Cortar, Copiar, Eliminar, Pegar
+           Dar formato a un texto
+           Editar
+           Deshacer y Rehacer
+          
 
-2. Menciona al menos 3 editores de texto. Pueden ser tanto comerciales como los preinstalados en algún sistema operativo. (valor 1.0)
+3. Menciona al menos 3 editores de texto. Pueden ser tanto comerciales como los preinstalados en algún sistema operativo. (valor 1.0)
+   R: Visual Studio Code, notepad++, notepad
 
-3. ¿Qué extensión debe tener un archivo que contiene el código HTML de una página web? (valor 1.0)
+5. ¿Qué extensión debe tener un archivo que contiene el código HTML de una página web? (valor 1.0)
+   .html
 
-4. ¿Qué extensión llevan los archivos que contienen instrucciones para aplicar estilos a un documento que contiene el código HTML de una página web? (valor 1.0)
+7. ¿Qué extensión llevan los archivos que contienen instrucciones para aplicar estilos a un documento que contiene el código HTML de una página web? (valor 1.0)
+   R: .css
 
-5. ¿Menciona al menos tres formatos de imagen que puedes incorporar dentro del código html5? (valor 1.0)
-
-6. Uno de los buenos hábitos para desarrollar nuestra página web es tener en
+9. ¿Menciona al menos tres formatos de imagen que puedes incorporar dentro del código html5? (valor 1.0)
+    .jpg   .png  .cvg
+        
+11. Uno de los buenos hábitos para desarrollar nuestra página web es tener en
 distintas carpetas distintos tipos de archivo, por ejemplo, los archivos relacionados
 a imágenes en una carpeta, en otra los relacionados a multimedia, en otra a lo
 referente a los estilos (CSS), etc. (valor 1.0)
 
-        a) Cierto
+        a) Cierto                R: a) Cierto 
         b) Falso
 
 ## 3. ESTRUCTURA BÁSICA DE UN DOCUMENTO HTML
@@ -49,8 +66,11 @@ Indicaciones: Pedir responder o seleccionar la respuesta correcta según sea el 
 Preguntas:
 
 1. ¿Menciona brevemente qué es una etiqueta y qué es un elemento? (valor 0.6)
+   R:  las etiquetas inician <>  tienen etiqueta de apertura y otra de cierre
+   html es un lenguaje que se compone por elementos que permiten definir la estructura del documento.
+   Estos elementos son los que nos posibilitan determinar cómo estará armada la página y sus secciones.
 
-2. ¿Qué significa la semántica en el contexto de HTML5? (valor 0.3)
+3. ¿Qué significa la semántica en el contexto de HTML5? (valor 0.3)
 a) Las etiquetas HTML semánticas dan un significado extra al contenido de la
 etiqueta
 
@@ -60,32 +80,46 @@ etiqueta
         c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
         información sobre el contenido de la etiqueta.
         d) Es solo una palabra de moda sin sentido.
+
+   R: c
   
-3. ¿Qué elemento se utiliza para diferenciar el contenido de una página web del
+5. ¿Qué elemento se utiliza para diferenciar el contenido de una página web del
 material en el que se encuentra (como una barra lateral)? (valor 0.3)
   
         a) header
         b) footer
         c) nav
         d) aside
+   R: d
   
-4. De los siguientes elementos, seleccione el que NO clasifica como marcado semántico. (valor 0.3)
+7. De los siguientes elementos, seleccione el que NO clasifica como marcado semántico. (valor 0.3)
   
         a) mark
         b) article
         c) time
         d) span
+
+  R: d
   
-5. ¿Menciona al menos 6 elementos semánticos en html5 y descríbelos brevemente? (valor 1.5)
+8. ¿Menciona al menos 6 elementos semánticos en html5 y descríbelos brevemente? (valor 1.5)
+
+   R:    encabezado header
+        una barra de navegación nav
+        bloque principal denominado section 
+        que contiene dos artículos article
+        una barra con información adicional aside
+        también un pie footer
   
 Los siguientes ejemplos de elementos son incorrectos. Describe lo que está mal con cada
 uno, y luego escríbelo correctamente. (cada respuesta vale 0.3, en total suman 1.2)
   
            
-        1. <img "birthday.jpg">
-        2. <i>Congratulations!<i>
-        3. <a href="file.html">Enlace de texto</a href="file.html">
-        4. <p>Esto es un párrafo<\p>
+        1. <img "birthday.jpg">                                               <img/"birthday.jpg">             =  falta la diagonal
+        2. <i>Congratulations!<i>                                             <i>Congratulations!</i>          = falta cerrar la etiqueta </i> 
+        3. <a href="file.html">Enlace de texto</a href="file.html">           <a href="http://file.html">Enlace de texto</a href=" http://file.html">       =La direccion de la pagina
+        4. <p>Esto es un párrafo<\p>                                          <p>Esto es un párrafo</p>  =escribir diagonal correcta/
+
+        
 
  Indicaciones: La siguiente imagen muestra el contenido de la página web del periodico
 The New York Times. Coloca los elementos semánticos de HTML5 dentro de cada uno de
@@ -107,39 +141,40 @@ Preguntas:
         a) Home Tool Markup Language
         b) Hyperlinks and Text Markup Language
         c) Hyper Text Markup Language
+   R: b
     
-2. Elige el elemento HTML correcto para el encabezado más grande: (valor 0.24)
+3. Elige el elemento HTML correcto para el encabezado más grande: (valor 0.24)
     
         a) heading
         b) hed
         c) h6
         d) h1
-    
-3. ¿Cuál es el elemento HTML correcto para insertar un salto de línea? (valor 0.24)
+    R:d
+4. ¿Cuál es el elemento HTML correcto para insertar un salto de línea? (valor 0.24)
 
         a) lb
         b) br
         c) break
-
-4. ¿Cuál es el HTML correcto para agregar un color de fondo? (valor 0.24)
+   R:b
+5. ¿Cuál es el HTML correcto para agregar un color de fondo? (valor 0.24)
 
         a) <background>yellow</background>
         b) <body bg="yellow">
         c) <body style="background-color:yellow;">
-    
-5. Elija el elemento HTML correcto para definir texto importante (valor 0.24)
+    R:c
+6. Elija el elemento HTML correcto para definir texto importante (valor 0.24)
     
         a) b
         b) strong
         c) i
         d) important
-    
-6. Elija el elemento HTML correcto para definir el texto enfatizado (valor 0.24)
+    R:d
+7. Elija el elemento HTML correcto para definir el texto enfatizado (valor 0.24)
     
         a) italic
         b) em
         c) i
-
+R: b
 7. ¿Cuál es el HTML correcto para crear un hipervínculo? (valor 0.24)
 
         a) <a>https://adip.cdmx.gob.mx/</a>
@@ -147,25 +182,25 @@ Preguntas:
         c) <a href="https://adip.cdmx.gob.mx">ADIP</a>
         d) <a url=”https://adip.cdmx.gob.mx">ADIP</a>
   
-  
+  R:c
 8. ¿Cómo puedes abrir un enlace en una nueva pestaña/ventana del navegador? (valor 0.24)
   
         a) <a href="url" target="new">
         b) <a href="url" target="_blank">
         c) <a href="url" new>
-  
+  R:b
 9. ¿Cuáles de estos elementos son todos elementos de table? (valor 0.24)
   
           a) thead body  tr
           b) table  tr  tt
           c) table  head  tfoot
           d) table  tr  td
-  
+  R:d
 10. Los elementos inline normalmente se muestran sin comenzar una nueva línea.(valor 0.24)
   
           a) Verdadero
           b) Falso
-    
+    R:a
   
 11. ¿Cómo puedes hacer una lista numerada? (valor 0.24)
   
@@ -173,82 +208,82 @@ Preguntas:
           b) ol
           c) ul
           d) dl
-  
+  R:b
 12. ¿Cómo se puede hacer una lista con viñetas? (valor 0.24)
   
           a) ol
           b) ul
           c) list
           d) dl
-  
+  R:b
 13. ¿Cuál es el HTML correcto para hacer una casilla de verificación (checkbox )? (valor 0.24)
   
           a) input type="check"
           b) check
           c) checkbox
           d) <input type="checkbox">  
-
+R:d
 14. ¿Cuál es el HTML correcto para crear un campo de entrada de texto? (valor 0.24) 
   
           a) textfield
           b) textinput type="text"
           c) input type="textfield"
           d) input type="text"
-  
+  R:d
 15. ¿Cuál es el HTML correcto para hacer una lista desplegable? (valor 0.24)
   
           a) list
           b) input type="list"
           c) input type="dropdown"
           d) select
-  
+  R:d
 16. ¿Cuál es el HTML correcto para hacer un área de texto? (valor 0.24)
   
           a) input type="textbox"
           b) input type="textarea"
           c) textarea
-  
+  R:b
 17. ¿Cuál es el HTML correcto para insertar una imagen? (valor 0.24
   
           a) <img src="image.gif" alt="Mi imagen">
           b) <img href="image.gif" alt="Mi imagen">
           c) <img alt="Mi imagen">image.gif</img>
           d) <image src="image.gif" alt="Mi imagen">
-  
+  R:a
 18. ¿Cuál es el HTML correcto para insertar una imagen de fondo? (valor 0.24)
   
           a) <body bg="background.gif">
           b) <body style="background-image:url(background.gif)">
           c) <background img="background.gif">
-  
+  R:b
 19. Los comentarios HTML comienzan con ![image](https://user-images.githubusercontent.com/91554777/164576568-aa1ae841-a85f-486b-b286-be51bfc8cd4e.png) (valor 0.24)
   
         a) Verdadero
         b) Falso
-
+R:a
 20.Los elementos de bloque normalmente se muestran sin comenzar una nueva línea.(valor 0.24)
   
         a) Verdadero
         b) Falso
-  
+  R:b
 21. ¿Qué elemento HTML define el título de un documento? (valor 0.24)
   
         a) title
         b) head
         c) meta
-  
+  R:a
 22.¿Qué atributo HTML especifica un texto alternativo para una imagen, si la imagen no se puede mostrar? (valor 0.24)
 
         a) longdesc
         b) src
         c) alt
         d) title
-  
+  R:c
 23. ¿Qué tipo de documento es correcto para HTML5? (valor 0.24)
   
         a) <!DOCTYPE html>
         b) <!DOCTYPE HTML5>
-  
+  R:b
 c) <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN\"\"http://www.w3.org/TR/html5/strict.dtd\">
   
 24.¿Qué elemento HTML se usa para especificar un pie de página para un documentoo sección? (valor 0.24)
@@ -256,13 +291,13 @@ c) <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN\"\"http://www.w3.org/TR/html5
         a) bottom
         b) footer
         c) section
-  
+  R:a
 25. ¿Cuál es el elemento HTML correcto para reproducir archivos de video? (valor 0.24)
   
         a) video
         b) media
         c) movie
-  
+  R:a
 Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica de la maquetación en código html, valor 18)
   
 ![image](https://user-images.githubusercontent.com/91554777/164575358-76757050-5393-44a3-a075-0583e749b4e8.png)
